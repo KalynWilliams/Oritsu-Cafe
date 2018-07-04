@@ -110,7 +110,7 @@ button{
   font-size: 24px;
   text-transform: uppercase;
   margin-top: 100px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 .menu-section{
@@ -122,18 +122,42 @@ button{
 .lunch{
   width: 33.33%;
   float: left;
-  height: 40vh;
-  margin: 0 auto;
+  height: 50vh;
+  margin: 0;
+  filter:  brightness(60%);
+
 }
 
 .dessert {
   width: 33.33%;
-  height: 40vh;
+  height: 50vh;
   float: left;
+  margin: 0;
+  padding: 0;
+  filter:  brightness(60%);
 }
 
 .drink{
   width: 33.33%;
-  height: 40vh;
+  height: 50vh;
   float: left;
+  margin: 0;
+  filter:  brightness(60%);
+}
+
+.lunch-img{
+  position: relative;
+}
+
+.lunch-text{
+  color: white;
+  float: left;
+  position: absolute;
+  text-align: center;
+  top: 230px;
+  left: 12%;
+  font-size: 50px;
+  font-family: Overpass;
+  font-weight:bold;
+  float: right;
 }
