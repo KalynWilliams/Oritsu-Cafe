@@ -148,16 +148,49 @@ button{
 .lunch-img{
   position: relative;
 }
+.dessert-img{
+  position: relative;
+}
+.drink-img{
+  position: relative;
+}
 
 .lunch-text{
   color: white;
   float: left;
   position: absolute;
   text-align: center;
-  top: 230px;
-  left: 12%;
+  top: 220px;
+  left: 10%;
   font-size: 50px;
-  font-family: Overpass;
+  font-family: Roboto;
   font-weight:bold;
   float: right;
+  letter-spacing: 4px;
+}
+.dessert-text{
+  color: white;
+  float: left;
+  position: absolute;
+  text-align: center;
+  top: 220px;
+  left: 44%;
+  font-size: 50px;
+  font-family: Roboto;
+  font-weight:bold;
+  float: right;
+  letter-spacing: 4px;
+}
+.drink-text{
+  color: white;
+  float: left;
+  position: absolute;
+  text-align: center;
+  top: 220px;
+  left: 79%;
+  font-size: 50px;
+  font-family: Roboto;
+  font-weight: bold;
+  float: right;
+  letter-spacing: 4px;
 }
